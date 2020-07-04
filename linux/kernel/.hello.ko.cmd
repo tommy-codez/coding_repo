@@ -1,0 +1,1 @@
+cmd_/home/thomas/coding_repo/linux/kernel/hello.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/thomas/coding_repo/linux/kernel/hello.ko /home/thomas/coding_repo/linux/kernel/hello.o /home/thomas/coding_repo/linux/kernel/hello.mod.o;  true
