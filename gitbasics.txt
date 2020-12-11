@@ -2,12 +2,16 @@ git init        - Repository initialisieren (.git wird angelegt)
 
 git status      - was gibts neues
 
-git add         - Dateien zum Repository hinzufügen
+git add                         - Dateien zum Repository hinzufügen
 
-git commit      - Eine Version commiten
+git commit -m 'Kommentar'      - Eine Version commiten
 
 git diff        - Unterschiede der Datei anzeigen
 
 git log         - Änderungshistorie anzeigen
 
 git checkout    - Datei zurücksetzen
+
+git push        - Push to Remote Repository
+
+git pull        - Pull Latest Changes From Remote
