@@ -17,4 +17,7 @@ git remote      - Listet alle remotes auf
 
 Arbeiten mit branches
 ----------------------
-git branch testing
+git branch testing      - Erzeugt ein neuen Branch 'testing'
+git checkout testing    - Wechselt zum Branch 'testing'
+git switch testing
+git checkout -b <newbranchname>
