@@ -13,7 +13,7 @@ build:
   # before_script:
   #   - apt update && apt -y install make autoconf
   script:
-    - echo ">>> Building srand!!"
+    - echo ">>> Building srand!! hub"
     - g++ c/srand.cpp -o c/srandbinary
   artifacts:
     paths:
