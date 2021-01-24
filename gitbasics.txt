@@ -9,6 +9,12 @@ git diff        - Unterschiede der Datei anzeigen
 git log         - Änderungshistorie anzeigen
 git checkout    - Datei zurücksetzen
 
+Konfiguration
+--------------
+
+git config --list --show-origin
+git config --list
+
 Arbeiten mit remotes
 ----------------------
 git push        - Push to Remote Repository
@@ -18,6 +24,10 @@ git remote      - Listet alle remotes auf
 Arbeiten mit branches
 ----------------------
 git branch testing      - Erzeugt ein neuen Branch 'testing'
+
 git checkout testing    - Wechselt zum Branch 'testing'
 git switch testing
+
 git checkout -b <newbranchname>
+git switch -c new-branch
+git branch -d hotfix     Löscht Branch hotfix
